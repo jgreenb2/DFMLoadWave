@@ -1,0 +1,170 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeBuildStyle = 4F9091AC011F3BD104CA0E50 /* Debug */;
+		activeExecutable = 89D02188098AF6B6002BF247 /* Igor */;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* GBLoadWave */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* GBLoadWave */,
+		);
+		breakpoints = (
+		);
+		breakpointsGroup = 89D021A0098AF781002BF247 /* XCBreakpointsBucket */;
+		codeSenseManager = 89D06FC5093FA4C5001DAEFA /* Code sense */;
+		executables = (
+			89D02188098AF6B6002BF247 /* Igor */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					150,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					262,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					82,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 160350247;
+			PBXWorkspaceStateSaveDate = 160350247;
+		};
+		sourceControlManager = 89D06FC4093FA4C5001DAEFA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	89D02188098AF6B6002BF247 /* Igor */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 89D02189098AF6B6002BF247 /* Igor.app */;
+		libgmallocEnabled = 0;
+		name = Igor;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	89D02189098AF6B6002BF247 /* Igor.app */ = {
+		isa = PBXFileReference;
+		explicitFileType = wrapper.application;
+		name = Igor.app;
+		path = "/Work/Igor Pro 5PX Folder/Igor.app";
+		sourceTree = "<absolute>";
+	};
+	89D021A0098AF781002BF247 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
+	};
+	89D06FC4093FA4C5001DAEFA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	89D06FC5093FA4C5001DAEFA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	89D06FC6093FA4E6001DAEFA /* GBScalingDialog.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {864, 4060}}";
+			sepNavSelRange = "{3742, 6}";
+			sepNavVisRect = "{{0, 0}, {864, 717}}";
+			sepNavWindowFrame = "{{15, 177}, {903, 846}}";
+		};
+	};
+	89D06FC7093FA4E6001DAEFA /* GBLoadWave.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 12110}}";
+			sepNavSelRange = "{26262, 2}";
+			sepNavVisRect = "{{0, 11759}, {459, 186}}";
+			sepNavWindowFrame = "{{339, 141}, {903, 846}}";
+		};
+	};
+	89D06FC8093FA4E6001DAEFA /* GBLoadWaveOperation.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3044, 4942}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {864, 717}}";
+			sepNavWindowFrame = "{{38, 156}, {903, 846}}";
+		};
+	};
+	89D06FCA093FA4E6001DAEFA /* GBLoadWave.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {942, 1764}}";
+			sepNavSelRange = "{2406, 12}";
+			sepNavVisRect = "{{0, 644}, {942, 362}}";
+		};
+	};
+	8D01CCC60486CAD60068D4B7 /* GBLoadWave */ = {
+		activeExec = 0;
+	};
+}

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5F34815ED074FA12ABCF42C3F980DA654165BDDA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5F34815ED074FA12ABCF42C3F980DA654165BDDA" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5F34815ED074FA12ABCF42C3F980DA654165BDDA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "154C31C9-3DD3-483D-ACC0-C674A09E7320",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5F34815ED074FA12ABCF42C3F980DA654165BDDA" : "Xcode6\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DFMLoadWave",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DFMLoadWave.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/srl1xp67fbm81.srl.ford.com\/vaps",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F34815ED074FA12ABCF42C3F980DA654165BDDA"
+    }
+  ]
+}

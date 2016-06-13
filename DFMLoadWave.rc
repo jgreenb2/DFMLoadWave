@@ -1,0 +1,154 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,60,0,1
+ PRODUCTVERSION 5,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "This is IgorPro extension runs with Igor Pro 5.00 or later."
+            VALUE "CompanyName", "WaveMetrics"
+            VALUE "FileDescription", "DFMLoadWave"
+            VALUE "FileVersion", "1, 60, 0, 1"
+            VALUE "InternalName", "DFMLoadWave"
+            VALUE "LegalCopyright", "Copyright 1994-2006"
+            VALUE "OriginalFilename", "DFMLoadWave.xop"
+            VALUE "ProductName", "IGOR Pro DFMLoadWave"
+            VALUE "ProductVersion", "5, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+1260 DIALOGEX 0, 0, 320, 199
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+CAPTION "Load DFM Binary Data"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Input File",7,9,4,301,100
+    LTEXT           "DFM Path: ",8,13,16,35,8
+    COMBOBOX        9,53,16,88,100,CBS_DROPDOWNLIST | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "File...",10,148,16,36,12
+    LTEXT           "Static",11,189,18,112,8
+    LTEXT           "Byte order:",12,14,63,35,8
+    COMBOBOX        13,52,62,96,64,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Data Path:",14,11,35,39,8
+    COMBOBOX        15,53,35,87,100,CBS_DROPDOWNLIST | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "File...",16,148,35,36,12
+    LTEXT           "Static",17,189,37,115,8
+    GROUPBOX        "Output Waves",18,9,110,301,45
+    CHECKBOX        "Overwrite existing waves",19,26,139,130,13
+    EDITTEXT        5,9,164,303,13,ES_MULTILINE | ES_AUTOHSCROLL | ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL | NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Do It",1,9,184,40,11
+    PUSHBUTTON      "To Cmd Line",3,55,184,61,11
+    PUSHBUTTON      "To Clip",4,124,184,48,11
+    PUSHBUTTON      "Help",6,222,184,34,11
+    PUSHBUTTON      "Cancel",2,264,184,45,11
+    LTEXT           "Sample Time:",20,161,140,44,8
+    EDITTEXT        21,219,137,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_RIGHT
+    CHECKBOX        "Treat char fields as c-strings",22,26,123,106,10
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""DFMLoadWaveWinCustom.rc""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    1260, DIALOG
+    BEGIN
+        RIGHTMARGIN, 315
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "DFMLoadWaveWinCustom.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

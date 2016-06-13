@@ -1,0 +1,12 @@
+Xcode creates the libXOPSupport.a file in the build/Debug directory
+or build/Release directory if you build the release configuration.
+
+The version shipped with the XOP Toolkit is the release configuration.
+
+The sample XOP projects look for libXOPSupport.a in the project directory
+(the parent of the build directory - named Xcode in the sample projects).
+Thus after rebuilding the library, you must move the libXOPSupport.a file
+from the build/Debug or build/Release directory to the Xcode directory.
+
+As shipped from WaveMetrics, the XOPSupport library created by this project targets
+Mac OS X 10.4 or later.
