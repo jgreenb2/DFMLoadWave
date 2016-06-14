@@ -427,7 +427,7 @@ Load(XOP_FILE_REF fileRef, LoadSettingsPtr lsp, char *fileName, dataDef_t *ddp, 
 			*/
 			result = CreateValidDataObjectName(NULL, tempName, ciPtr->waveName, &suffixNum, WAVE_OBJECT,
 				1, lsp->flags & OVERWRITE, (ddp[i].nElems>1) && !ciPtr->nChars, 1, &nameChanged, &doOverwrite);
-			
+            if (ddp[i].nElems > 1) strncat(ciPtr->waveName, "_", MAX_OBJ_NAME);
 			ciPtr->wavePreExisted = doOverwrite;	// Used below in case an error occurs and we want to kill any waves we've made.
 			
 			if (result == 0) {
@@ -603,7 +603,7 @@ LoadWave(LoadSettings* lsp, const char* symbolicPathName, const char* fileParam,
 		lsp->flags |= INTERACTIVE;				// Need dialog to get file name.
 
 	if (lsp->flags & INTERACTIVE) {
-		if (err = XOPOpenFileDialog("Looking for a general binary file", lsp->filterStr, NULL, symbolicPathPath, nativeFilePath))
+		if (err = XOPOpenFileDialog("Looking for a binary file", lsp->filterStr, NULL, symbolicPathPath, nativeFilePath))
 			return err;
 	}
 
@@ -634,8 +634,7 @@ RegisterOperations(void)		// Register any operations with Igor.
 static int
 MenuItem(void)
 {
-	DFMLoadWaveDialog();						// This is in DFMLoadWaveDialog.c.
-	return 0;
+	return DFMLoadWaveDialog();						// This is in DFMLoadWaveDialog.c.
 }
 
 /*	XOPEntry()

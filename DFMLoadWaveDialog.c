@@ -657,7 +657,6 @@ DFMLoadWaveDialog(void)
 
 	theDialog = GetXOPDialog(DIALOG_TEMPLATE_ID);
 	savePort = SetDialogPort(theDialog);
-	SetDialogBalloonHelpID(DIALOG_TEMPLATE_ID);					// NOP on Windows. Now also a NOP under Carbon.
 
 	// As of Carbon 1.3, this call messes up the activation state of the Do It button. This appears to be a Mac OS bug.
 	SetDialogDefaultItem(theDialog, DOIT_BUTTON);

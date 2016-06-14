@@ -196,8 +196,8 @@ RegisterDFMLoadWave(void)
 	
 	// NOTE: If you change this template, you must change the DFMLoadWaveRuntimeParams structure as well.
 	cmdTemplate = "DFMLoadWave /DFM=string:dfmParamStr /B[=number:lowByteFirst] /CSTR /P=name:dataPathName /O /I[={string:macFilterStr,string:winFilterStr}] /ST=number:sampleTime /DFMP=name:dfmPathName [string:fileParamStr]";
-	runtimeNumVarList = "";
-	runtimeStrVarList = "";
+	runtimeNumVarList = "V_flag;";
+	runtimeStrVarList = "S_path;S_fileName;S_waveNames;";
 	return RegisterOperation(cmdTemplate, runtimeNumVarList, runtimeStrVarList, sizeof(DFMLoadWaveRuntimeParams), (void*)ExecuteDFMLoadWave, 0);
 }
 

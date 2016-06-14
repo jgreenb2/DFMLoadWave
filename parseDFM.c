@@ -62,6 +62,7 @@ int parseDFM(char *fileName, int *ddSize, dataDef_t **ddh)
 				strcpy(ddp->type,tokenArray[0]);
 				ddp->IgorTypeID = getIgorType(ddp->type);
 				strcpy(ddp->varname,tokenArray[1]);
+                strncat(ddp->varname,"_",MAXVARNAMELEN);
 				ddp->nElems=atoi(tokenArray[2]);
 			break;
 			
